@@ -2,11 +2,15 @@
 This is group 14 final project for 3DCV
 ## Usage
 ### Colmap
+* Run colmap.sh to create point cloud file
+```
+bash colmap.sh
+```
 * Merge ply files
 ```
 python merge_ply_files.py --input <path/to/all/ply/files> --output <path/to/output>
 ```
-*  
+
 ### Meshroom
 ### Maplab
 ### ORB-SLAM
