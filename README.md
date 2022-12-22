@@ -1,7 +1,7 @@
 # 3DCV-Final-Project-GROUP14
 This is group 14 final project for 3DCV
 ## Usage
-### Colmap
+### COLMAP
 * Run colmap.sh to create point cloud file
 ```
 bash colmap.sh
