@@ -14,7 +14,7 @@ python merge_ply_files.py --input <path/to/all/ply/files> --output <path/to/outp
 ```
 
 ### Meshroom
-* SfM Parameter
+* SfM parameters
 ```
 - Vocabulary tree number of image:200
 - Vocabulary tree Max descriptor:500
@@ -33,7 +33,7 @@ python merge_ply_files.py --input <path/to/all/ply/files> --output <path/to/outp
 - Rebuild with ORB-SLAM build.sh
 ```
 ### CloudCompare
-* ICP paremeter
+* ICP parameters
 ```
 Random sampling limit: 50000
 Rotation: unfixed
