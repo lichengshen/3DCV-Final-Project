@@ -23,8 +23,8 @@ python merge_ply_files.py --input <path/to/all/ply/files> --output <path/to/outp
 - Geometric Estimator: ARC_RANSAC
 - Max iteration: 2048
 ```
-### Meshroom
 ### Maplab
+* Not successful
 ### ORB-SLAM 3 
 * Feed segmented mp4 to SLAM
 ```
