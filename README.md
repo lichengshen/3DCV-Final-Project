@@ -35,7 +35,6 @@ CloudCompare -O {filename} -MERGE_CLOUDS
 ```
 ## Dataset
 [Dataset](https://cloud.lalalachuck.com:9999/index.php/s/YFXkLiWS8dHd5Nr?fbclid=IwAR3p7WdAIoRPrgfy2oAAJp97stQjc6yHydjc4CVGl94wJNCCZPqFmGf9FUQ)
-https://cloud.lalalachuck.com:9999/index.php/s/YFXkLiWS8dHd5Nr?fbclid=IwAR3p7WdAIoRPrgfy2oAAJp97stQjc6yHydjc4CVGl94wJNCCZPqFmGf9FUQ
 
 * bag file to RGB frame
 ```
@@ -44,4 +43,3 @@ python bag2frame2_RGBRGBD_SaveAsPng.py --input <path/to/input> --i <interval_of_
 
 ## Output
 [Merge output](https://cloud.lalalachuck.com:9999/index.php/s/6oPag7Fmtr62L3e?path=%2F)
-https://cloud.lalalachuck.com:9999/index.php/s/6oPag7Fmtr62L3e?path=%2F
