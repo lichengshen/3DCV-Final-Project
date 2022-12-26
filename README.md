@@ -13,8 +13,24 @@ python merge_ply_files.py --input <path/to/all/ply/files> --output <path/to/outp
 
 ### Meshroom
 ### Maplab
-### ORB-SLAM
-
+### ORB-SLAM 3 
+* Feed segmented mp4 to SLAM
+```
+- put myvideo.cpp under ORB_SLAM folder
+- replace origin Cmakefile
+- Rebuild with ORB-SLAM build.sh
+```
+### CloudCompare
+* ICP paremeter
+```
+Random sampling limit: 50000
+Rotation: unfixed
+RMS difference: 1.0e-06
+```
+* To merge ply into one
+```
+CloudCompare -O {filename} -MERGE_CLOUDS
+```
 ## Dataset
 [Dataset](https://cloud.lalalachuck.com:9999/index.php/s/YFXkLiWS8dHd5Nr?fbclid=IwAR3p7WdAIoRPrgfy2oAAJp97stQjc6yHydjc4CVGl94wJNCCZPqFmGf9FUQ)
 * bag file to RGB frame
