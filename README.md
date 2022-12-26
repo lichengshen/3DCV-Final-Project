@@ -14,6 +14,16 @@ python merge_ply_files.py --input <path/to/all/ply/files> --output <path/to/outp
 ```
 
 ### Meshroom
+* SfM Parameter
+```
+- Vocabulary tree number of image:200
+- Vocabulary tree Max descriptor:500
+- Descriptor Type:SIFT
+- Matching method: ALL_L2
+- Geometric Estimator: ARC_RANSAC
+- Max iteration: 2048
+```
+### Meshroom
 ### Maplab
 ### ORB-SLAM 3 
 * Feed segmented mp4 to SLAM
