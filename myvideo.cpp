@@ -1,13 +1,6 @@
-//
-// Created by xiang on 11/29/17.
-//
 
-// 该文件将打开给定的视频文件，并将图像传递给ORB-SLAM2进行定位
-
-// 需要opencv
 #include <opencv2/opencv.hpp>
 
-// ORB-SLAM的系统接口
 #include "System.h"
 
 #include <string>
@@ -16,29 +9,24 @@
 
 using namespace std;
 
-// 参数文件与字典文件
-// 如果你系统上的路径不同，请修改它
-// 第二个路径建议用相对路径
+
 string parameterFile = "./myvideo.yaml";
 string vocFile = "./../../Vocabulary/ORBvoc.txt";
 
-// 视频文件，修改的话需要和你的视频名字一起改
 string videoFile = "./myvideo.mp4";
 
 int main(int argc, char **argv) {
 
-    // 声明 ORB-SLAM3 系统
     ORB_SLAM3::System SLAM(vocFile, parameterFile, ORB_SLAM3::System::MONOCULAR, true);
 
-    // 获取视频图像
+
     cv::VideoCapture cap(videoFile);    // change to 1 if you want to use USB camera.
 
-    // 记录系统时间
     auto start = chrono::system_clock::now();
 
     while (1) {
         cv::Mat frame;
-        cap >> frame;   // 读取相机数据
+        cap >> frame;   
         if ( frame.data == nullptr )
             break;
 
